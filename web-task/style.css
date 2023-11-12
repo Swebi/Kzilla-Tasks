@@ -1,0 +1,693 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700;800&display=swap");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Epilogue;
+   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+/* border: solid;;
+border-width:2px;
+border-color: black; */
+
+
+
+
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+
+    padding: 30px 0 0 0;
+    margin-top: 10px;
+  
+}
+
+
+nav ul{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+    gap:20px;
+}
+
+nav li{
+    color:black;
+    font-size:1.1vw;
+    margin-right: 40px;
+}
+
+nav ul a{
+    text-decoration: underline;
+    text-decoration-color: transparent;
+
+    transition: 0.7s;
+
+}
+
+nav ul a:hover{
+    
+    text-decoration-color: #26303C;
+
+}
+
+
+
+
+
+
+.home{
+    margin: auto;
+    margin-top:10vh;
+    margin-bottom: 25vh;
+
+    padding:25px;
+
+    gap:4vw;
+
+    display:flex;
+
+    justify-content: center;
+    align-items: center;
+
+
+    height:auto;
+    width:85vw;
+
+
+}
+
+.info{
+    display: flex;
+    flex:0 1 1;
+    flex-direction: column;
+
+
+    min-width: 250px;
+
+    justify-content: center;
+    gap:25px;
+    
+
+    width: 35vw;
+    height:60vh;
+
+
+}
+
+.info h4{
+    font-size: 2vw;
+
+}
+
+.info h1{
+    font-weight: 800 ;
+    font-size: 5vw;
+    text-shadow: 3px 2px 2px rgba(128, 128, 128, 0.32);
+
+}
+
+.info h3{
+    font-size: 1.5vw;
+}
+
+.info p{
+    font-size: 1.1vw;
+}
+
+.info button{
+    height:3.6vw;
+    width:12vw;
+
+    border-radius: 25px;;
+    background-color: #12202D;
+
+    color: white;
+    font-size: 2vh;
+    font-weight: 800;
+
+    border: solid;
+    border-color: #12202D;
+    border-width: 2px;
+
+    cursor: pointer;
+
+    transition: 0.5s;
+
+}
+
+
+.info button:hover{
+
+    transform: translate(0px, -7px);
+
+}
+
+.relative{
+    position: relative;
+}
+
+.relative .dots{
+    height: 22vh;
+    width: auto;
+
+    position: absolute;
+    z-index: -1;
+
+    top:-70px;
+    left:-80px;
+}
+
+.photo{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+
+    width: 27vw;
+    height: 52vh;
+
+
+}
+
+.photo img{
+    height: 60vh;
+    width: 70vh;
+
+    border-radius: 25px
+}
+
+
+.books{
+
+    margin: auto;
+    margin-top:10vh;
+    margin-bottom: 15vh;
+
+    padding:5%;
+
+    gap:4vw;
+
+    display:flex;
+
+    justify-content: center;
+    align-items: center;
+
+
+    height:100vh;
+    width:100%;
+
+    background-color: white;
+
+}
+
+.books .info{
+    display: flex;
+    flex-direction: column;
+
+
+    min-width: 250px;
+
+    justify-content: center;
+    gap:25px;
+    
+
+    width: 35vw;
+    height:60vh;
+
+
+}
+
+.books .info h4{
+    font-size: 2vw;
+
+}
+
+.books .info h1{
+    font-weight: 800 ;
+    font-size: 5vw;
+    text-shadow: 3px 2px 2px rgba(128, 128, 128, 0.32);
+
+}
+
+.books .info h3{
+    font-size: 1.5vw;
+}
+
+.books .info p{
+    font-size: 1.1vw;
+}
+
+
+
+.bookbox{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+    justify-content: space-evenly;
+
+
+    border-radius: 20px;
+
+    height: 80%;
+    width: 60%;
+
+}
+
+.bookbox img{
+    height: 90%;
+    width: auto;
+
+    border-radius: 25px;
+
+    transition: 0.5s;
+
+
+
+}
+
+.bookbox img:hover{
+    transform: translate(0px, -7px);
+}
+
+.bookbox .one{
+    height: 82%;
+
+
+}
+
+
+.music{
+
+    margin: auto;
+    margin-top:0vh;
+    margin-bottom: 25vh;
+
+
+    gap:4vw;
+
+    display:flex;
+
+    justify-content: center;
+    align-items: center;
+
+
+    height:100vh;
+    width:100%;
+
+    background-color: white;
+
+}
+
+.music .info{
+    display: flex;
+    flex:0 1 1;
+    flex-direction: column;
+
+
+    min-width: 250px;
+
+    justify-content: center;
+    gap:25px;
+    
+
+    width: 35vw;
+    height:60vh;
+
+
+}
+
+.music .info h4{
+    font-size: 2vw;
+
+}
+
+.music .info h1{
+    font-weight: 800 ;
+    font-size: 5vw;
+    text-shadow: 3px 2px 2px rgba(128, 128, 128, 0.32);
+
+}
+
+.music .info h3{
+    font-size: 1.5vw;
+}
+
+.music .info p{
+    font-size: 1.1vw;
+}
+
+.music .info img{
+    height: auto;
+    width: 20%;
+    transition: 0.5s;
+
+}
+
+.music .info img:hover{
+    transform: translate(0px, -7px);
+
+}
+
+
+
+
+.musicbox{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: space-evenly;
+
+    border: solid;
+    border-color: black;
+    border-width: 6px;
+
+    height: 85%;
+    width: 22%;
+
+    border-radius: 45px;
+
+    background-color: #202020;
+
+}
+
+
+.musicbox h1{
+    color:white;
+}
+
+.musicbox .playlistcard{
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    gap:1vw;
+
+    padding-left: 5%;
+
+    border: solid;
+    border-color: white;
+    border-width: 0px;
+
+    border-radius: 20px;
+
+    height: 21%;
+    width:70%;
+
+    transition: 0.5s;
+
+
+}
+
+.musicbox .playlistcard:hover{
+    transform: translate(0px, -7px);
+
+}
+
+
+.playlistcard img{
+    border: none;
+    height: 70%;
+
+}
+
+.playlistcard h3{
+    color:white;
+
+    font-size:1.5vw;
+}
+
+.playlistcard .col{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+    height: 80%;
+    
+    color:white;
+
+}
+
+.playlistcard .col img{
+    height:auto;
+    width: 65%;
+
+}
+
+.playlistcard .col p{
+    font-size: 0.7vw;
+
+}
+
+
+
+
+.gaming{
+
+    margin: auto;
+    margin-top:10vh;
+    margin-bottom: 15vh;
+
+    padding:5%;
+
+    gap:4vw;
+
+    display:flex;
+
+    justify-content: center;
+    align-items: center;
+
+
+    height:100vh;
+    width:100%;
+
+    background-color: white;
+
+}
+
+.gaming .info{
+    display: flex;
+    flex-direction: column;
+
+
+    min-width: 250px;
+
+    justify-content: center;
+    gap:25px;
+    
+
+    width: 35vw;
+    height:60vh;
+
+
+}
+
+.gaming .info h4{
+    font-size: 2vw;
+
+}
+
+.gaming .info h1{
+    font-weight: 800 ;
+    font-size: 5vw;
+    text-shadow: 3px 2px 2px rgba(128, 128, 128, 0.32);
+
+}
+
+.gaming .info h3{
+    font-size: 1.5vw;
+}
+
+.gaming .info p{
+    font-size: 1.1vw;
+    line-height: 1.2;
+
+}
+
+
+
+.gamingbox{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+    justify-content: space-around;
+
+
+
+    height: 100%;
+    width: 80%;
+
+}
+
+.gamingbox img{
+    height: 60%;
+    width: auto;
+
+    border-radius: 50%;
+
+    transition: 0.5s;
+
+
+
+}
+
+.gamingbox img:hover{
+    transform: translate(0px, -7px);
+}
+
+.gamingbox .two{
+    height: 85%;
+
+
+}
+
+
+
+
+
+
+
+
+
+.projects{
+    margin: auto;
+    margin-bottom: 25vh;
+
+    padding:25px;
+
+    display:flex;
+    flex-direction: column;
+    
+
+    justify-content: center;
+    align-items: center;
+
+    gap:12vh;
+
+
+    height:auto;
+    width:100%;
+
+    border-radius: 25px; 
+    
+
+}
+
+.projects h1{
+    font-size: 4.5vw;
+}
+
+.projectrow{
+    display:flex;
+    flex-direction: row;
+
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.projectrow img{
+    height:50%;
+    width:50%;
+
+}
+
+
+
+
+.projectcol{
+    display:flex;
+    flex-direction: column;
+
+    height:20vw;
+    width:30vw;
+    justify-content:space-evenly;
+    align-items:flex-start;
+
+
+}
+
+
+.projectcol h1{
+    color: #12202D;
+
+    font-size: 4vw;
+}
+
+.projectcol p{
+    font-size:1.2vw;
+    line-height: 1.2;
+}
+
+.projectcol button{
+    height:7vh;
+    width:12vw;
+
+    border-radius: 25px;;
+    background-color: #12202D;
+
+    color: white;
+    font-size: 2vh;
+    font-weight: 800;
+
+    border: solid;
+    border-color: #12202D;
+    border-width: 2px;
+
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.projectcol button:hover{
+
+    transform: translate(0px, -7px);
+
+}
+
+
+#github{
+    background-color: white;
+    background-image: 
+    url("https://cdn-icons-png.flaticon.com/512/25/25231.png") 100% 100%;
+    height: 3.2vw;
+    width: 3.2vw;
+    border-radius: 50%;
+    margin-left: 1vw;
+
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+#github:hover{
+    transform: translate(0px, -7px);
+}
