@@ -1,6 +1,6 @@
 # Kzilla-Tasks
 
-**Website **
+**Website**
 https://hobbies-kzilla.vercel.app/
 
 <img width="1440" alt="Screenshot 2023-11-12 at 8 58 25 PM" src="https://github.com/Swebi/Kzilla-Tasks/assets/82446436/4e1ec684-1baf-42ea-a3a4-dbcd546ce283">
