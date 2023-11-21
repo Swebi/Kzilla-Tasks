@@ -11,17 +11,15 @@
       type="image/x-icon"
       href="https://cdn-icons-png.flaticon.com/512/2282/2282272.png"
     />
-
-    <script src="script.js"></script>
   </head>
   <body>
     <nav>
       <ul>
-        <a href="#home"><li>Home</li></a>
-        <a href="#books"><li>Reading</li></a>
-        <a href="#music"><li>Music</li></a>
-        <a href="#gaming"><li>Gaming</li></a>
-        <a href="#development"><li>Development</li></a>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#books">Reading</a></li>
+        <li><a href="#music">Music</a></li>
+        <li><a href="#gaming">Gaming</a></li>
+        <li><a href="#development">Development</a></li>
       </ul>
     </nav>
 
@@ -42,12 +40,13 @@
         </a>
 
         <div class="relative">
-          <img class="dots" src="assets/Group 70.png" />
+          <img class="dots" src="assets/Group 70.png" alt="dots" />
         </div>
       </div>
 
       <div class="photo">
         <img
+          alt="homepic"
           src="https://i.pinimg.com/originals/82/f1/0b/82f10b28f623cef954409cf096d83c42.jpg"
         />
       </div>
@@ -56,11 +55,13 @@
     <div class="books" id="books">
       <div class="bookbox">
         <img
+          alt="book"
           class="one"
           src="https://devontrevarrowflaherty.files.wordpress.com/2014/09/hitchhikers-guide-to-the-galaxy.png"
         />
 
         <img
+          alt="book"
           class="two"
           src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/13345215135077.5628d4c617fda.jpg"
         />
@@ -96,6 +97,7 @@
           href="https://open.spotify.com/user/31kmf6x544pu2ljcs6tvqb4ohury?si=72c7fc42f5074481"
         >
           <img
+            alt="spotifylogo"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/1982px-Spotify_icon.svg.png"
           />
         </a>
@@ -104,39 +106,42 @@
       <div class="musicbox">
         <h1>Playlists</h1>
 
-        <div class="playlistcard" style="background-color: #750d1d">
-          <img src="assets/xxl.png" />
+        <div class="playlistcard" id="card1">
+          <img alt="albumcover" src="assets/xxl.png" />
 
           <div class="col">
             <h3>XXL</h3>
             <p>Playlist</p>
 
             <img
+              alt="mediabutton"
               src="https://icon-library.com/images/pause-play-icon/pause-play-icon-4.jpg"
             />
           </div>
         </div>
 
-        <div class="playlistcard" style="background-color: #393940">
-          <img src="assets/hindi.png" />
+        <div class="playlistcard" id="card2">
+          <img alt="albumcover" src="assets/hindi.png" />
 
           <div class="col">
             <h3>Hindi</h3>
             <p>Playlist</p>
 
             <img
+              alt="mediabutton"
               src="https://icon-library.com/images/pause-play-icon/pause-play-icon-4.jpg"
             />
           </div>
         </div>
 
-        <div class="playlistcard" style="background-color: #7baeb7">
-          <img src="assets/tps.png" />
+        <div class="playlistcard" id="card3">
+          <img alt="albumcover" src="assets/tps.png" />
           <div class="col">
             <h3>TPS-L2</h3>
             <p>Playlist</p>
 
             <img
+              alt="mediabutton"
               src="https://icon-library.com/images/pause-play-icon/pause-play-icon-4.jpg"
             />
           </div>
@@ -147,12 +152,14 @@
     <div class="gaming" id="gaming">
       <div class="gamingbox">
         <img
+          alt="game"
           class="one"
           id="game1"
           src="https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/Hpl5MtwQgOVF9vJqlfui6SDB5Jl4oBSq.png"
         />
 
         <img
+          alt="game"
           class="one"
           id="game2"
           src="https://image.api.playstation.com/vulcan/ap/rnd/202111/2001/9Vdas199J3tqxTIBWGijbpjW.png?w=440
@@ -177,7 +184,7 @@
 
     <div class="projects" id="development">
       <div class="projectrow">
-        <img src="assets/macweb.jpeg" />
+        <img alt="project" src="assets/macweb.jpeg" />
 
         <div class="projectcol">
           <h1>Development</h1>
@@ -187,12 +194,13 @@
             anything anything related to software and hardware
           </p>
 
-          <div style="display: flex">
+          <div class="row">
             <a target="_blank" href="https://linkedin.com/in/ahmed-suhayb"
               ><button>Contact</button></a
             >
             <a target="_blank" href="https://github.com/Swebi"
               ><img
+                alt="githublogo"
                 id="github"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
             /></a>
@@ -200,5 +208,8 @@
         </div>
       </div>
     </div>
+
+    <script src="script.js"></script>
+    <!-- To load the remaining HTML and CSS first and improve loading speed -->
   </body>
 </html>
